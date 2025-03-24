@@ -1,0 +1,40 @@
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Header*/
+.clgname{
+  display: flex;
+  justify-content:space-between;
+  color: black;
+  width: 100vw;
+  align-items: center;
+  padding: 0 50px;
+  position: absolute;
+  top: 0;
+  gap: 1em;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logoimg{
+  display: block;
+  height: 5em;
+  border-radius: 10%;
+}
+
+.clg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clg h2{
+  font-weight: bold;
+  margin: 0;
+}

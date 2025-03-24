@@ -1,0 +1,124 @@
+.payContainer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payCcontainer h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.payContainer .inst{
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #d9edf7;
+    color: #31708f;
+    border-color: #bce8f1;
+}
+
+.alert{
+    color: #28a745;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    border-color: #bce8f1;
+}
+
+div ul{
+    padding-left: 15px;
+}
+
+div ul li{
+    margin-bottom: 5px;
+}
+
+.payContainer .formGroupPay {
+    margin-bottom: 15px;
+}
+
+.payContainer .formGroupPay label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formGroupPay input[type="text"],
+.formGrouppay input[type="decimal"],
+.formGroupPay input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.payContainer .formGroupPay button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.payContainer .formGroup button:hover {
+    background-color: #45a049;
+}
+
+.payContainer .form-group .error {
+    color: red;
+    font-size: 12px;
+}
+
+.qrContainer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.qrContainer img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submitBtn {
+    width: 100%;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submitBtn:hover {
+    background-color: #1976d2;
+}
+
+#payment_mode{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}

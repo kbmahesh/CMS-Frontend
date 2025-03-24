@@ -1,0 +1,168 @@
+/* Card Container */
+.container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cardb{
+    background: #ffffff;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 .af{
+    margin-bottom: 10px;
+}
+/* Input Groups */
+.inputGroup {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.inputGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inputGroup input,
+.inputGroup select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Student Info */
+.studentInfo {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.infoBox {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px;
+    margin-bottom: 5px;
+}
+
+.infoBox label {
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn, .submitBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn:hover, .submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Input Box Styling */
+.inputBox {
+    display: flex;
+    gap: 10px;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.filterGroup {
+    flex: 1;
+}
+
+.filterGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.filterGroup .formControl {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.filter-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.filter-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Student List */
+.student-list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.student-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.student-checkbox {
+    margin-right: 10px;
+}
+
+.student-amount {
+    width: 80px;
+    padding: 5px;
+}
+
+.pay-container .alert {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #d9edf7;
+    color: #28a745;
+    border-color: #bce8f1;
+}

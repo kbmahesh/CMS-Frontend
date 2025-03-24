@@ -1,0 +1,15 @@
+.page {
+    background-image: url('/public/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 96vh;
+    justify-content: center;
+  }

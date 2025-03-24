@@ -1,0 +1,44 @@
+/* Filter Section Styling */
+.filterContainer {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap:10px;
+}
+
+/* Input and Dropdown Styling */
+.filterContainer .formControl {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Button Styling */
+.filterContainer .btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filterContainer .btnPrimary {
+    background-color: #007bff;
+    border: none;
+}
+
+.filterContainer .btnSecondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.filterContainer .btn:hover {
+    opacity: 0.85;
+}
+
+.dFlex{
+    display: flex;
+    gap: 10px;
+}

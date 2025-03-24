@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+    background-image: url('/public/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .logins{
+    display: flex;
+    align-items: center;
+    height: 96vh;
+    justify-content: center;
+    color: white;
+  }
+  

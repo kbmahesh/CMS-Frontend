@@ -1,0 +1,97 @@
+/* Transaction History Page Styles */
+h1 .TL{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #1976d2;
+}
+
+.transactionContainer {
+    height: 50vh;
+    margin-top: 30px;
+    overflow-x: auto;
+    padding: 0 15px;
+}
+
+.statusPending {
+    color: red;
+}
+
+.statusPaid {
+    color: green;
+}
+
+.transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.transactionTable th, .transactionTable td {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+}
+
+.transactionTable th {
+    background-color: #2196f3;
+    color: white;
+}
+
+.transactionTable td {
+    background-color: #f9f9f9;
+}
+
+.transactionTable tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+.transactionTable .success {
+    color: green;
+    font-weight: bold;
+}
+
+.transactionTable .pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.transactionTable .failed {
+    color: red;
+    font-weight: bold;
+}
+
+.actionButtons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.actionButtons .btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.actionButtons .btnPrimary {
+    background: #2196f3;
+}
+
+.actionButtons .btnPrimary:hover {
+    background: #1976d2;
+}
+
+.actionButtons .btnSecondary {
+    background: #757575;
+}
+
+.actionButtons .btnSecondary:hover {
+    background: #616161;
+}
