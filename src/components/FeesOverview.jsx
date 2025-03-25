@@ -61,7 +61,7 @@ const FeesOverview = () => {
                 <tbody>
                     {fees?.map((fee, index) => (
                         <tr key={index}>
-                            <td>{fee.fee_type || "N/A"}</td>
+                            <td>{fee.fee_type?.fee_name || "N/A"}</td>
                             <td>₹{fee.total_fees?.toFixed(2) || "0.00"}</td>
                             <td>₹{fee.paid_amount?.toFixed(2) || "0.00"}</td>
                             <td>₹{fee.due_amount?.toFixed(2) || "0.00"}</td>

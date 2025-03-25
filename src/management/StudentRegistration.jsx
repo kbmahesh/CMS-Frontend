@@ -58,8 +58,8 @@ const StudentRegistration = () => {
             });
 
             if (response.status === 201) {
-                alert("Student registered successfully!");
-                navigate("/admin/dashboard"); // Redirect after successful submission
+                alert(`Student registered successfully! \n Password:" ${response.data.defaultPassword}`);
+                // navigate("/admin/dashboard"); // Redirect after successful submission
             } else {
                 alert(response.data.errors || []);
             }

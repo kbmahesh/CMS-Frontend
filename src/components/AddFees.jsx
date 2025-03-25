@@ -123,7 +123,7 @@ const FeeManagement = () => {
                         <select id="fee_category">
                             <option>Select Fee</option>
                             {feeTypes.map((fee) => (
-                                <option key={fee.fee_type_id} value={fee.fee_type_id}>{fee.fee_name}</option>
+                                <option key={fee.fee_type_id} value={fee.fee_name}>{fee.fee_name}</option>
                             ))}
                         </select>
                     </div>
